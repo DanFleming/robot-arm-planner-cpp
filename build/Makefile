@@ -129,6 +129,19 @@ robot_arm_planner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_arm_planner.dir/build.make CMakeFiles/robot_arm_planner.dir/build
 .PHONY : robot_arm_planner/fast
 
+#=============================================================================
+# Target rules for targets named test_vectors
+
+# Build rule for target.
+test_vectors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_vectors
+.PHONY : test_vectors
+
+# fast build rule for target.
+test_vectors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/build
+.PHONY : test_vectors/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +166,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_arm_planner.dir/build.make CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/test_vectors.o: src/test_vectors.cpp.o
+.PHONY : src/test_vectors.o
+
+# target to build an object file
+src/test_vectors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o
+.PHONY : src/test_vectors.cpp.o
+
+src/test_vectors.i: src/test_vectors.cpp.i
+.PHONY : src/test_vectors.i
+
+# target to preprocess a source file
+src/test_vectors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/src/test_vectors.cpp.i
+.PHONY : src/test_vectors.cpp.i
+
+src/test_vectors.s: src/test_vectors.cpp.s
+.PHONY : src/test_vectors.s
+
+# target to generate assembly for a file
+src/test_vectors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s
+.PHONY : src/test_vectors.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... robot_arm_planner"
+	@echo "... test_vectors"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test_vectors.o"
+	@echo "... src/test_vectors.i"
+	@echo "... src/test_vectors.s"
 .PHONY : help
 
 

@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
-  "command": "/usr/bin/g++  -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/main.cpp",
-  "file": "/home/dan/dev/robot-arm-planner-cpp/src/main.cpp",
-  "output": "CMakeFiles/robot_arm_planner.dir/src/main.cpp.o"
-}
-]

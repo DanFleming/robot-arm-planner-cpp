@@ -9,3 +9,7 @@ include_directories(include)
 add_executable(robot_arm_planner
     src/main.cpp
 )
+
+add_executable(test_vectors
+    src/test_vectors.cpp
+)

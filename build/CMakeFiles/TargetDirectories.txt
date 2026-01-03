@@ -1,3 +1,4 @@
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/robot_arm_planner.dir
+/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/test_vectors.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/edit_cache.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/rebuild_cache.dir
