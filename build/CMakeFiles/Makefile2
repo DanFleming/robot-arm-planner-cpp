@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/dan/dev/robot-arm-planner-cpp/build
 # The main recursive "all" target.
 all: CMakeFiles/robot_arm_planner.dir/all
 all: CMakeFiles/test_vectors.dir/all
+all: CMakeFiles/test_matrices.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/robot_arm_planner.dir/clean
 clean: CMakeFiles/test_vectors.dir/clean
+clean: CMakeFiles/test_matrices.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -109,7 +111,7 @@ CMakeFiles/robot_arm_planner.dir/clean:
 CMakeFiles/test_vectors.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=3,4 "Built target test_vectors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=5,6 "Built target test_vectors"
 .PHONY : CMakeFiles/test_vectors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +129,32 @@ test_vectors: CMakeFiles/test_vectors.dir/rule
 CMakeFiles/test_vectors.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/clean
 .PHONY : CMakeFiles/test_vectors.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_matrices.dir
+
+# All Build rule for target.
+CMakeFiles/test_matrices.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=3,4 "Built target test_matrices"
+.PHONY : CMakeFiles/test_matrices.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_matrices.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_matrices.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_matrices.dir/rule
+
+# Convenience name for target.
+test_matrices: CMakeFiles/test_matrices.dir/rule
+.PHONY : test_matrices
+
+# clean rule for target.
+CMakeFiles/test_matrices.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/clean
+.PHONY : CMakeFiles/test_matrices.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

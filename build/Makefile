@@ -142,6 +142,19 @@ test_vectors/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/build
 .PHONY : test_vectors/fast
 
+#=============================================================================
+# Target rules for targets named test_matrices
+
+# Build rule for target.
+test_matrices: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_matrices
+.PHONY : test_matrices
+
+# fast build rule for target.
+test_matrices/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/build
+.PHONY : test_matrices/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -165,6 +178,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_arm_planner.dir/build.make CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/test_matrices.o: src/test_matrices.cpp.o
+.PHONY : src/test_matrices.o
+
+# target to build an object file
+src/test_matrices.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/src/test_matrices.cpp.o
+.PHONY : src/test_matrices.cpp.o
+
+src/test_matrices.i: src/test_matrices.cpp.i
+.PHONY : src/test_matrices.i
+
+# target to preprocess a source file
+src/test_matrices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/src/test_matrices.cpp.i
+.PHONY : src/test_matrices.cpp.i
+
+src/test_matrices.s: src/test_matrices.cpp.s
+.PHONY : src/test_matrices.s
+
+# target to generate assembly for a file
+src/test_matrices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/src/test_matrices.cpp.s
+.PHONY : src/test_matrices.cpp.s
 
 src/test_vectors.o: src/test_vectors.cpp.o
 .PHONY : src/test_vectors.o
@@ -199,10 +236,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... robot_arm_planner"
+	@echo "... test_matrices"
 	@echo "... test_vectors"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test_matrices.o"
+	@echo "... src/test_matrices.i"
+	@echo "... src/test_matrices.s"
 	@echo "... src/test_vectors.o"
 	@echo "... src/test_vectors.i"
 	@echo "... src/test_vectors.s"

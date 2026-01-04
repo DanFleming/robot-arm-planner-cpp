@@ -73,15 +73,15 @@ CMakeFiles/robot_arm_planner.dir/src/main.cpp.o: CMakeFiles/robot_arm_planner.di
 CMakeFiles/robot_arm_planner.dir/src/main.cpp.o: /home/dan/dev/robot-arm-planner-cpp/src/main.cpp
 CMakeFiles/robot_arm_planner.dir/src/main.cpp.o: CMakeFiles/robot_arm_planner.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robot_arm_planner.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -MF CMakeFiles/robot_arm_planner.dir/src/main.cpp.o.d -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -MF CMakeFiles/robot_arm_planner.dir/src/main.cpp.o.d -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/main.cpp
 
 CMakeFiles/robot_arm_planner.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/robot_arm_planner.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/main.cpp > CMakeFiles/robot_arm_planner.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/main.cpp > CMakeFiles/robot_arm_planner.dir/src/main.cpp.i
 
 CMakeFiles/robot_arm_planner.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/robot_arm_planner.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/main.cpp -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/main.cpp -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
 
 # Object files for target robot_arm_planner
 robot_arm_planner_OBJECTS = \
