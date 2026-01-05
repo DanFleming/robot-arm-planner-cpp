@@ -73,15 +73,15 @@ CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o: CMakeFiles/test_vectors.dir/
 CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o: /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp
 CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o: CMakeFiles/test_vectors.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -MF CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o.d -o CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -MF CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o.d -o CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp
 
 CMakeFiles/test_vectors.dir/src/test_vectors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_vectors.dir/src/test_vectors.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp > CMakeFiles/test_vectors.dir/src/test_vectors.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp > CMakeFiles/test_vectors.dir/src/test_vectors.cpp.i
 
 CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp -o CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp -o CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s
 
 # Object files for target test_vectors
 test_vectors_OBJECTS = \
