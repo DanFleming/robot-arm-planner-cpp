@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -o robot_arm_planner 
+/usr/bin/g++ CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -o robot_arm_planner 
