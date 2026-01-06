@@ -130,4 +130,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_vectors.dir/DependInfo.cmake"
   "CMakeFiles/test_matrices.dir/DependInfo.cmake"
   "CMakeFiles/test_se2.dir/DependInfo.cmake"
+  "CMakeFiles/test_se3.dir/DependInfo.cmake"
   )

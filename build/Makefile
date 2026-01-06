@@ -168,6 +168,19 @@ test_se2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se2.dir/build.make CMakeFiles/test_se2.dir/build
 .PHONY : test_se2/fast
 
+#=============================================================================
+# Target rules for targets named test_se3
+
+# Build rule for target.
+test_se3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_se3
+.PHONY : test_se3
+
+# fast build rule for target.
+test_se3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se3.dir/build.make CMakeFiles/test_se3.dir/build
+.PHONY : test_se3/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -240,6 +253,30 @@ src/test_se2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se2.dir/build.make CMakeFiles/test_se2.dir/src/test_se2.cpp.s
 .PHONY : src/test_se2.cpp.s
 
+src/test_se3.o: src/test_se3.cpp.o
+.PHONY : src/test_se3.o
+
+# target to build an object file
+src/test_se3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se3.dir/build.make CMakeFiles/test_se3.dir/src/test_se3.cpp.o
+.PHONY : src/test_se3.cpp.o
+
+src/test_se3.i: src/test_se3.cpp.i
+.PHONY : src/test_se3.i
+
+# target to preprocess a source file
+src/test_se3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se3.dir/build.make CMakeFiles/test_se3.dir/src/test_se3.cpp.i
+.PHONY : src/test_se3.cpp.i
+
+src/test_se3.s: src/test_se3.cpp.s
+.PHONY : src/test_se3.s
+
+# target to generate assembly for a file
+src/test_se3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se3.dir/build.make CMakeFiles/test_se3.dir/src/test_se3.cpp.s
+.PHONY : src/test_se3.cpp.s
+
 src/test_vectors.o: src/test_vectors.cpp.o
 .PHONY : src/test_vectors.o
 
@@ -275,6 +312,7 @@ help:
 	@echo "... robot_arm_planner"
 	@echo "... test_matrices"
 	@echo "... test_se2"
+	@echo "... test_se3"
 	@echo "... test_vectors"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
@@ -285,6 +323,9 @@ help:
 	@echo "... src/test_se2.o"
 	@echo "... src/test_se2.i"
 	@echo "... src/test_se2.s"
+	@echo "... src/test_se3.o"
+	@echo "... src/test_se3.i"
+	@echo "... src/test_se3.s"
 	@echo "... src/test_vectors.o"
 	@echo "... src/test_vectors.i"
 	@echo "... src/test_vectors.s"
