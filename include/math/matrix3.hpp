@@ -20,6 +20,15 @@ struct Matrix3 {
         : m00(a00), m01(a01), m02(a02),
           m10(a10), m11(a11), m12(a12),
           m20(a20), m21(a21), m22(a22) {}
+
+    //Identity matrix
+    static Matrix3 identity() {
+        return Matrix3(
+            1.0, 0.0, 0.0,
+            0.0, 1.0, 0.0,
+            0.0, 0.0, 1.0
+        );
+    }
     
     //Matrix * Vector3
     Vector3 operator*(const Vector3& v) const {
@@ -64,7 +73,7 @@ struct Matrix3 {
         };
     }
 
-    //Rotation about X axis
+    //Rotation about x axis
     static Matrix3 rotation_x(double t) {
         double c = std::cos(t), s = std::sin(t);
         return {

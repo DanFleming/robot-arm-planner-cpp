@@ -73,15 +73,15 @@ CMakeFiles/test_se2.dir/src/test_se2.cpp.o: CMakeFiles/test_se2.dir/flags.make
 CMakeFiles/test_se2.dir/src/test_se2.cpp.o: /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp
 CMakeFiles/test_se2.dir/src/test_se2.cpp.o: CMakeFiles/test_se2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_se2.dir/src/test_se2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_se2.dir/src/test_se2.cpp.o -MF CMakeFiles/test_se2.dir/src/test_se2.cpp.o.d -o CMakeFiles/test_se2.dir/src/test_se2.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_se2.dir/src/test_se2.cpp.o -MF CMakeFiles/test_se2.dir/src/test_se2.cpp.o.d -o CMakeFiles/test_se2.dir/src/test_se2.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp
 
 CMakeFiles/test_se2.dir/src/test_se2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_se2.dir/src/test_se2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp > CMakeFiles/test_se2.dir/src/test_se2.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp > CMakeFiles/test_se2.dir/src/test_se2.cpp.i
 
 CMakeFiles/test_se2.dir/src/test_se2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_se2.dir/src/test_se2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp -o CMakeFiles/test_se2.dir/src/test_se2.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp -o CMakeFiles/test_se2.dir/src/test_se2.cpp.s
 
 # Object files for target test_se2
 test_se2_OBJECTS = \
