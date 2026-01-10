@@ -181,6 +181,19 @@ test_se3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_se3.dir/build.make CMakeFiles/test_se3.dir/build
 .PHONY : test_se3/fast
 
+#=============================================================================
+# Target rules for targets named test_robot_arm_2d
+
+# Build rule for target.
+test_robot_arm_2d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_robot_arm_2d
+.PHONY : test_robot_arm_2d
+
+# fast build rule for target.
+test_robot_arm_2d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_robot_arm_2d.dir/build.make CMakeFiles/test_robot_arm_2d.dir/build
+.PHONY : test_robot_arm_2d/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -228,6 +241,30 @@ src/test_matrices.s: src/test_matrices.cpp.s
 src/test_matrices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrices.dir/build.make CMakeFiles/test_matrices.dir/src/test_matrices.cpp.s
 .PHONY : src/test_matrices.cpp.s
+
+src/test_robot_arm_2d.o: src/test_robot_arm_2d.cpp.o
+.PHONY : src/test_robot_arm_2d.o
+
+# target to build an object file
+src/test_robot_arm_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_robot_arm_2d.dir/build.make CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.o
+.PHONY : src/test_robot_arm_2d.cpp.o
+
+src/test_robot_arm_2d.i: src/test_robot_arm_2d.cpp.i
+.PHONY : src/test_robot_arm_2d.i
+
+# target to preprocess a source file
+src/test_robot_arm_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_robot_arm_2d.dir/build.make CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.i
+.PHONY : src/test_robot_arm_2d.cpp.i
+
+src/test_robot_arm_2d.s: src/test_robot_arm_2d.cpp.s
+.PHONY : src/test_robot_arm_2d.s
+
+# target to generate assembly for a file
+src/test_robot_arm_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_robot_arm_2d.dir/build.make CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.s
+.PHONY : src/test_robot_arm_2d.cpp.s
 
 src/test_se2.o: src/test_se2.cpp.o
 .PHONY : src/test_se2.o
@@ -311,6 +348,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... robot_arm_planner"
 	@echo "... test_matrices"
+	@echo "... test_robot_arm_2d"
 	@echo "... test_se2"
 	@echo "... test_se3"
 	@echo "... test_vectors"
@@ -320,6 +358,9 @@ help:
 	@echo "... src/test_matrices.o"
 	@echo "... src/test_matrices.i"
 	@echo "... src/test_matrices.s"
+	@echo "... src/test_robot_arm_2d.o"
+	@echo "... src/test_robot_arm_2d.i"
+	@echo "... src/test_robot_arm_2d.s"
 	@echo "... src/test_se2.o"
 	@echo "... src/test_se2.i"
 	@echo "... src/test_se2.s"
