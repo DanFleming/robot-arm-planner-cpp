@@ -34,5 +34,11 @@
   "command": "/usr/bin/g++  -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_robot_arm_2d.cpp",
   "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_robot_arm_2d.cpp",
   "output": "CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp",
+  "output": "CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o"
 }
 ]
