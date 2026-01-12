@@ -25,3 +25,7 @@ add_executable(test_se2
 add_executable(test_se3
     src/test_se3.cpp
 )
+
+add_executable(test_robot_arm_2d
+    src/test_robot_arm_2d.cpp
+)

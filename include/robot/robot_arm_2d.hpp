@@ -13,11 +13,11 @@ struct RobotArm2d {
 
     math::SE2 forward_kinematics(const std::vector<double>& q) const {
         using math::SE2;
-        uusing math::Vector2;
+        using math::Vector2;
 
         SE2 T; //identity transform
 
-        for(si<e_t i = 0; i < link_lengths.size(); ++i) {
+        for(size_t i = 0; i < link_lengths.size(); ++i) {
             double theta = q[i];
             double L = link_lengths[i];
 
@@ -32,6 +32,6 @@ struct RobotArm2d {
         }
 
         return T;
-    } //namespace robot
-}
-}
+    } 
+}; //struct closing
+} //namespace robot
