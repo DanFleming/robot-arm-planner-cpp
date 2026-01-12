@@ -73,15 +73,15 @@ CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o: CMakeFiles/test_jaco
 CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o: /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp
 CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o: CMakeFiles/test_jacobian_2d.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -MF CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o.d -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -MF CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o.d -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp
 
 CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp > CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp > CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.i
 
 CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.s
 
 # Object files for target test_jacobian_2d
 test_jacobian_2d_OBJECTS = \

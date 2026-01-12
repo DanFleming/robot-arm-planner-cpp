@@ -207,6 +207,19 @@ test_jacobian_2d/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_jacobian_2d.dir/build.make CMakeFiles/test_jacobian_2d.dir/build
 .PHONY : test_jacobian_2d/fast
 
+#=============================================================================
+# Target rules for targets named test_ik_2d
+
+# Build rule for target.
+test_ik_2d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ik_2d
+.PHONY : test_ik_2d
+
+# fast build rule for target.
+test_ik_2d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik_2d.dir/build.make CMakeFiles/test_ik_2d.dir/build
+.PHONY : test_ik_2d/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -230,6 +243,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_arm_planner.dir/build.make CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/test_ik_2d.o: src/test_ik_2d.cpp.o
+.PHONY : src/test_ik_2d.o
+
+# target to build an object file
+src/test_ik_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik_2d.dir/build.make CMakeFiles/test_ik_2d.dir/src/test_ik_2d.cpp.o
+.PHONY : src/test_ik_2d.cpp.o
+
+src/test_ik_2d.i: src/test_ik_2d.cpp.i
+.PHONY : src/test_ik_2d.i
+
+# target to preprocess a source file
+src/test_ik_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik_2d.dir/build.make CMakeFiles/test_ik_2d.dir/src/test_ik_2d.cpp.i
+.PHONY : src/test_ik_2d.cpp.i
+
+src/test_ik_2d.s: src/test_ik_2d.cpp.s
+.PHONY : src/test_ik_2d.s
+
+# target to generate assembly for a file
+src/test_ik_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik_2d.dir/build.make CMakeFiles/test_ik_2d.dir/src/test_ik_2d.cpp.s
+.PHONY : src/test_ik_2d.cpp.s
 
 src/test_jacobian_2d.o: src/test_jacobian_2d.cpp.o
 .PHONY : src/test_jacobian_2d.o
@@ -384,6 +421,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... robot_arm_planner"
+	@echo "... test_ik_2d"
 	@echo "... test_jacobian_2d"
 	@echo "... test_matrices"
 	@echo "... test_robot_arm_2d"
@@ -393,6 +431,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test_ik_2d.o"
+	@echo "... src/test_ik_2d.i"
+	@echo "... src/test_ik_2d.s"
 	@echo "... src/test_jacobian_2d.o"
 	@echo "... src/test_jacobian_2d.i"
 	@echo "... src/test_jacobian_2d.s"
