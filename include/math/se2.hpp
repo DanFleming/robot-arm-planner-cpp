@@ -10,8 +10,8 @@ struct SE2 {
     Matrix2 R; //rotation
     Vector2 t; //translation
 
-    SE2() = default;
-
+    SE2() : R(Matrix2::identity()), t{0.0, 0.0} {}
+    
     //constructors
     SE2(const Matrix2& R_in, const Vector2& t_in)
         : R(R_in), t(t_in) {}

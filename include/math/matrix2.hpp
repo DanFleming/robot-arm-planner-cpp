@@ -50,6 +50,12 @@ struct Matrix2 {
         };
     }
 
+    //Identity matrix factory
+    static Matrix2 identity() {
+        return Matrix2(1.0, 0.0,
+                       0.0, 1.0);
+    }
+
     //Rotation matrix factory
     static Matrix2 rotation(double theta) {
         double c = std::cos(theta);

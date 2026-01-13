@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_se3"
+			"path" : "test_robot_arm_2d"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -42,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g -std=gnu++17"
 				}
 			],
 			"includes" : 
@@ -67,11 +67,15 @@
 			]
 		}
 	],
-	"id" : "test_se3::@6890427a1f51a3e7e1df",
+	"id" : "test_robot_arm_2d::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -79,8 +83,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_se3",
-	"nameOnDisk" : "test_se3",
+	"name" : "test_robot_arm_2d",
+	"nameOnDisk" : "test_robot_arm_2d",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +105,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/test_se3.cpp",
+			"path" : "src/test_robot_arm_2d.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

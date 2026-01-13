@@ -29,3 +29,11 @@ add_executable(test_se3
 add_executable(test_robot_arm_2d
     src/test_robot_arm_2d.cpp
 )
+
+add_executable(test_jacobian_2d
+    src/test_jacobian_2d.cpp
+)
+
+add_executable(test_ik_2d
+    src/test_ik_2d.cpp
+)   
