@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -o test_vectors 
+/usr/bin/c++ CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -o test_vectors 
