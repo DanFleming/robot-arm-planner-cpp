@@ -7,6 +7,7 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
   /home/dan/dev/robot-arm-planner-cpp/include/math/vector2.hpp \
   /home/dan/dev/robot-arm-planner-cpp/include/robot/ik_2d.hpp \
   /home/dan/dev/robot-arm-planner-cpp/include/robot/robot_arm_2d.hpp \
+  /home/dan/dev/robot-arm-planner-cpp/include/robot/trajectory.hpp \
   /home/dan/dev/robot-arm-planner-cpp/include/visual/visualizer_2d.hpp \
   /usr/include/SDL2/SDL.h \
   /usr/include/SDL2/SDL_assert.h \
@@ -533,7 +534,7 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/c++/13/cstddef:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/13/cerrno:
 
@@ -582,8 +583,6 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/include/c++/13/iosfwd:
 
 /usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -675,6 +674,20 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 
 /usr/include/c++/13/backward/binders.h:
 
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/SDL2/SDL_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
+
 /usr/include/assert.h:
 
 /usr/include/SDL2/SDL_joystick.h:
@@ -747,20 +760,6 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/SDL2/SDL_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
 
 /usr/include/SDL2/SDL_config.h:
@@ -768,8 +767,6 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
 
 /usr/include/SDL2/SDL_mouse.h:
-
-/usr/include/SDL2/SDL_loadso.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -782,6 +779,32 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h:
 
 /usr/include/SDL2/SDL_main.h:
+
+/home/dan/dev/robot-arm-planner-cpp/include/visual/visualizer_2d.hpp:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/home/dan/dev/robot-arm-planner-cpp/include/robot/robot_arm_2d.hpp:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h:
+
+/usr/include/SDL2/SDL_video.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/home/dan/dev/robot-arm-planner-cpp/include/robot/trajectory.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h:
 
@@ -805,27 +828,7 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 
 /usr/include/SDL2/SDL_audio.h:
 
-/home/dan/dev/robot-arm-planner-cpp/include/visual/visualizer_2d.hpp:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/c++/13/cctype:
-
-/usr/include/c++/13/tr1/gamma.tcc:
-
-/home/dan/dev/robot-arm-planner-cpp/include/robot/robot_arm_2d.hpp:
-
-/usr/include/string.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h:
-
-/usr/include/SDL2/SDL_video.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/SDL2/SDL_loadso.h:
 
 /usr/include/SDL2/SDL_locale.h:
 
@@ -862,6 +865,10 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/include/c++/13/bits/requires_hosted.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/limits:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h:
 
@@ -921,6 +928,8 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 
 /usr/include/alloca.h:
 
+/usr/include/c++/13/cstddef:
+
 /usr/include/c++/13/cstdlib:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -962,10 +971,6 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/include/c++/13/ext/type_traits.h:
 
 /usr/include/c++/13/ios:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/13/limits:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1128,5 +1133,3 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cp
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:

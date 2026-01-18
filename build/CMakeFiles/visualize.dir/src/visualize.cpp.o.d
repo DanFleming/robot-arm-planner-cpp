@@ -308,4 +308,5 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cassert \
  /usr/include/assert.h \
+ /home/dan/dev/robot-arm-planner-cpp/include/robot/trajectory.hpp \
  /home/dan/dev/robot-arm-planner-cpp/include/robot/ik_2d.hpp
