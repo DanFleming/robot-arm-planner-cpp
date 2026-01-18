@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dan/dev/robot-arm-planner-cpp/include
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include
 
 CXX_FLAGS = -std=gnu++17
 

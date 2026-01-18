@@ -6,5 +6,6 @@
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/test_robot_arm_2d.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/test_jacobian_2d.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/test_ik_2d.dir
+/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/visualize.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/edit_cache.dir
 /home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles/rebuild_cache.dir

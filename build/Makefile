@@ -220,6 +220,19 @@ test_ik_2d/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik_2d.dir/build.make CMakeFiles/test_ik_2d.dir/build
 .PHONY : test_ik_2d/fast
 
+#=============================================================================
+# Target rules for targets named visualize
+
+# Build rule for target.
+visualize: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 visualize
+.PHONY : visualize
+
+# fast build rule for target.
+visualize/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualize.dir/build.make CMakeFiles/visualize.dir/build
+.PHONY : visualize/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -412,6 +425,30 @@ src/test_vectors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s
 .PHONY : src/test_vectors.cpp.s
 
+src/visualize.o: src/visualize.cpp.o
+.PHONY : src/visualize.o
+
+# target to build an object file
+src/visualize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualize.dir/build.make CMakeFiles/visualize.dir/src/visualize.cpp.o
+.PHONY : src/visualize.cpp.o
+
+src/visualize.i: src/visualize.cpp.i
+.PHONY : src/visualize.i
+
+# target to preprocess a source file
+src/visualize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualize.dir/build.make CMakeFiles/visualize.dir/src/visualize.cpp.i
+.PHONY : src/visualize.cpp.i
+
+src/visualize.s: src/visualize.cpp.s
+.PHONY : src/visualize.s
+
+# target to generate assembly for a file
+src/visualize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualize.dir/build.make CMakeFiles/visualize.dir/src/visualize.cpp.s
+.PHONY : src/visualize.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -428,6 +465,7 @@ help:
 	@echo "... test_se2"
 	@echo "... test_se3"
 	@echo "... test_vectors"
+	@echo "... visualize"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -452,6 +490,9 @@ help:
 	@echo "... src/test_vectors.o"
 	@echo "... src/test_vectors.i"
 	@echo "... src/test_vectors.s"
+	@echo "... src/visualize.o"
+	@echo "... src/visualize.i"
+	@echo "... src/visualize.s"
 .PHONY : help
 
 
