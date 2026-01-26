@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_arm_planner_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_arm_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_arm_planner-be92d6beca183807ddbf.json",
+					"name" : "robot_arm_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ik_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ik_2d-6add133763ecb3a5e51d.json",
+					"name" : "test_ik_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_jacobian_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_jacobian_2d-6c28e70b40a25acd5d69.json",
+					"name" : "test_jacobian_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_matrices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_matrices-389eec6494fb56a74b4c.json",
+					"name" : "test_matrices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_arm_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_arm_2d-ec836f35c13aefb4b37b.json",
+					"name" : "test_robot_arm_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_se2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_se2-473b76de65a82b5362e1.json",
+					"name" : "test_se2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_se3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_se3-35ed8780df5509a81c86.json",
+					"name" : "test_se3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_vectors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_vectors-886b984e295ba3e1f6df.json",
+					"name" : "test_vectors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "visualize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-visualize-04c8b50c1c7161f7d996.json",
+					"name" : "visualize",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dan/dev/robot-arm-planner-cpp/build",
+		"source" : "/home/dan/dev/robot-arm-planner-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

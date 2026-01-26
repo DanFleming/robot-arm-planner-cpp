@@ -73,15 +73,15 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: CMakeFiles/visualize.dir/flags.mak
 CMakeFiles/visualize.dir/src/visualize.cpp.o: /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp
 CMakeFiles/visualize.dir/src/visualize.cpp.o: CMakeFiles/visualize.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/visualize.dir/src/visualize.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize.dir/src/visualize.cpp.o -MF CMakeFiles/visualize.dir/src/visualize.cpp.o.d -o CMakeFiles/visualize.dir/src/visualize.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/visualize.dir/src/visualize.cpp.o -MF CMakeFiles/visualize.dir/src/visualize.cpp.o.d -o CMakeFiles/visualize.dir/src/visualize.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp
 
 CMakeFiles/visualize.dir/src/visualize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/visualize.dir/src/visualize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp > CMakeFiles/visualize.dir/src/visualize.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp > CMakeFiles/visualize.dir/src/visualize.cpp.i
 
 CMakeFiles/visualize.dir/src/visualize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/visualize.dir/src/visualize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp -o CMakeFiles/visualize.dir/src/visualize.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp -o CMakeFiles/visualize.dir/src/visualize.cpp.s
 
 # Object files for target visualize
 visualize_OBJECTS = \

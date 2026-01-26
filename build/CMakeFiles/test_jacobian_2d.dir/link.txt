@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -o test_jacobian_2d 
+/usr/bin/g++ CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -o test_jacobian_2d 
