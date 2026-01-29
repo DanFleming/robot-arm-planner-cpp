@@ -93,6 +93,7 @@ visualize_EXTERNAL_OBJECTS =
 visualize: CMakeFiles/visualize.dir/src/visualize.cpp.o
 visualize: CMakeFiles/visualize.dir/build.make
 visualize: /usr/lib/x86_64-linux-gnu/libSDL2.so
+visualize: libwaypoint_input.a
 visualize: CMakeFiles/visualize.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dan/dev/robot-arm-planner-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable visualize"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/visualize.dir/link.txt --verbose=$(VERBOSE)

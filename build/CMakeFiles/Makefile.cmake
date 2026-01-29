@@ -129,6 +129,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/waypoint_input.dir/DependInfo.cmake"
   "CMakeFiles/robot_arm_planner.dir/DependInfo.cmake"
   "CMakeFiles/test_vectors.dir/DependInfo.cmake"
   "CMakeFiles/test_matrices.dir/DependInfo.cmake"
@@ -137,5 +138,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_robot_arm_2d.dir/DependInfo.cmake"
   "CMakeFiles/test_jacobian_2d.dir/DependInfo.cmake"
   "CMakeFiles/test_ik_2d.dir/DependInfo.cmake"
+  "CMakeFiles/test_waypoints.dir/DependInfo.cmake"
+  "CMakeFiles/test_ik.dir/DependInfo.cmake"
   "CMakeFiles/visualize.dir/DependInfo.cmake"
   )

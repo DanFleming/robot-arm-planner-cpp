@@ -225,11 +225,7 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h \
- /home/dan/dev/robot-arm-planner-cpp/include/visual/visualizer_2d.hpp \
- /home/dan/dev/robot-arm-planner-cpp/include/robot/robot_arm_2d.hpp \
- /home/dan/dev/robot-arm-planner-cpp/include/math/se2.hpp \
- /home/dan/dev/robot-arm-planner-cpp/include/math/vector2.hpp \
+ /usr/include/SDL2/SDL_misc.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -301,12 +297,18 @@ CMakeFiles/visualize.dir/src/visualize.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
- /usr/include/c++/13/bits/ostream.tcc \
- /home/dan/dev/robot-arm-planner-cpp/include/math/matrix2.hpp \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cassert \
- /usr/include/assert.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/dan/dev/robot-arm-planner-cpp/include/visual/visualizer_2d.hpp \
+ /home/dan/dev/robot-arm-planner-cpp/include/robot/robot_arm_2d.hpp \
+ /home/dan/dev/robot-arm-planner-cpp/include/math/se2.hpp \
+ /home/dan/dev/robot-arm-planner-cpp/include/math/vector2.hpp \
+ /home/dan/dev/robot-arm-planner-cpp/include/math/matrix2.hpp \
+ /usr/include/c++/13/cassert /usr/include/assert.h \
  /home/dan/dev/robot-arm-planner-cpp/include/robot/trajectory.hpp \
- /home/dan/dev/robot-arm-planner-cpp/include/robot/ik_2d.hpp
+ /home/dan/dev/robot-arm-planner-cpp/include/robot/ik_2d.hpp \
+ /home/dan/dev/robot-arm-planner-cpp/src/waypoint_input.hpp

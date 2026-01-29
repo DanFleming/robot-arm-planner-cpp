@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwaypoint_input.a CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.o
+/usr/bin/ranlib libwaypoint_input.a

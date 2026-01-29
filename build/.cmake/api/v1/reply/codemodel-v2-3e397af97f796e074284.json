@@ -23,7 +23,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -46,7 +49,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -55,64 +61,85 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "robot_arm_planner::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-robot_arm_planner-be92d6beca183807ddbf.json",
+					"jsonFile" : "target-robot_arm_planner-dc18af225bfad40bcbe5.json",
 					"name" : "robot_arm_planner",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_ik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ik-1d792a35ab48a53cef40.json",
+					"name" : "test_ik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_ik_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_ik_2d-6add133763ecb3a5e51d.json",
+					"jsonFile" : "target-test_ik_2d-78f8b65e9f26a3089103.json",
 					"name" : "test_ik_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_jacobian_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_jacobian_2d-6c28e70b40a25acd5d69.json",
+					"jsonFile" : "target-test_jacobian_2d-ae95157eb91492078e88.json",
 					"name" : "test_jacobian_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_matrices::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_matrices-389eec6494fb56a74b4c.json",
+					"jsonFile" : "target-test_matrices-fd33f66a384980f1a8be.json",
 					"name" : "test_matrices",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_robot_arm_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_robot_arm_2d-ec836f35c13aefb4b37b.json",
+					"jsonFile" : "target-test_robot_arm_2d-168da8556380689e0dbb.json",
 					"name" : "test_robot_arm_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_se2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_se2-473b76de65a82b5362e1.json",
+					"jsonFile" : "target-test_se2-0bea8738dcec00dd5c3d.json",
 					"name" : "test_se2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_se3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_se3-35ed8780df5509a81c86.json",
+					"jsonFile" : "target-test_se3-d99707357fa7e9b3b7c1.json",
 					"name" : "test_se3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_vectors::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_vectors-886b984e295ba3e1f6df.json",
+					"jsonFile" : "target-test_vectors-68e43a6f2b8feb61f3e0.json",
 					"name" : "test_vectors",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_waypoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_waypoints-e1a8630c1e1139f132bb.json",
+					"name" : "test_waypoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "visualize::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visualize-04c8b50c1c7161f7d996.json",
+					"jsonFile" : "target-visualize-b9cf736703394064ea73.json",
 					"name" : "visualize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_input-b58186b329cde3a3ed65.json",
+					"name" : "waypoint_input",
 					"projectIndex" : 0
 				}
 			]

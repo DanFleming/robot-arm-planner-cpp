@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.o -o test_waypoints  libwaypoint_input.a 

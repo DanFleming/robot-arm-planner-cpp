@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named waypoint_input
+
+# Build rule for target.
+waypoint_input: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waypoint_input
+.PHONY : waypoint_input
+
+# fast build rule for target.
+waypoint_input/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_input.dir/build.make CMakeFiles/waypoint_input.dir/build
+.PHONY : waypoint_input/fast
+
+#=============================================================================
 # Target rules for targets named robot_arm_planner
 
 # Build rule for target.
@@ -221,6 +234,32 @@ test_ik_2d/fast:
 .PHONY : test_ik_2d/fast
 
 #=============================================================================
+# Target rules for targets named test_waypoints
+
+# Build rule for target.
+test_waypoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_waypoints
+.PHONY : test_waypoints
+
+# fast build rule for target.
+test_waypoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_waypoints.dir/build.make CMakeFiles/test_waypoints.dir/build
+.PHONY : test_waypoints/fast
+
+#=============================================================================
+# Target rules for targets named test_ik
+
+# Build rule for target.
+test_ik: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_ik
+.PHONY : test_ik
+
+# fast build rule for target.
+test_ik/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/build
+.PHONY : test_ik/fast
+
+#=============================================================================
 # Target rules for targets named visualize
 
 # Build rule for target.
@@ -256,6 +295,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_arm_planner.dir/build.make CMakeFiles/robot_arm_planner.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/test_ik.o: src/test_ik.cpp.o
+.PHONY : src/test_ik.o
+
+# target to build an object file
+src/test_ik.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/src/test_ik.cpp.o
+.PHONY : src/test_ik.cpp.o
+
+src/test_ik.i: src/test_ik.cpp.i
+.PHONY : src/test_ik.i
+
+# target to preprocess a source file
+src/test_ik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/src/test_ik.cpp.i
+.PHONY : src/test_ik.cpp.i
+
+src/test_ik.s: src/test_ik.cpp.s
+.PHONY : src/test_ik.s
+
+# target to generate assembly for a file
+src/test_ik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ik.dir/build.make CMakeFiles/test_ik.dir/src/test_ik.cpp.s
+.PHONY : src/test_ik.cpp.s
 
 src/test_ik_2d.o: src/test_ik_2d.cpp.o
 .PHONY : src/test_ik_2d.o
@@ -425,6 +488,30 @@ src/test_vectors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_vectors.dir/build.make CMakeFiles/test_vectors.dir/src/test_vectors.cpp.s
 .PHONY : src/test_vectors.cpp.s
 
+src/test_waypoints.o: src/test_waypoints.cpp.o
+.PHONY : src/test_waypoints.o
+
+# target to build an object file
+src/test_waypoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_waypoints.dir/build.make CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.o
+.PHONY : src/test_waypoints.cpp.o
+
+src/test_waypoints.i: src/test_waypoints.cpp.i
+.PHONY : src/test_waypoints.i
+
+# target to preprocess a source file
+src/test_waypoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_waypoints.dir/build.make CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.i
+.PHONY : src/test_waypoints.cpp.i
+
+src/test_waypoints.s: src/test_waypoints.cpp.s
+.PHONY : src/test_waypoints.s
+
+# target to generate assembly for a file
+src/test_waypoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_waypoints.dir/build.make CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.s
+.PHONY : src/test_waypoints.cpp.s
+
 src/visualize.o: src/visualize.cpp.o
 .PHONY : src/visualize.o
 
@@ -449,6 +536,30 @@ src/visualize.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/visualize.dir/build.make CMakeFiles/visualize.dir/src/visualize.cpp.s
 .PHONY : src/visualize.cpp.s
 
+src/waypoint_input.o: src/waypoint_input.cpp.o
+.PHONY : src/waypoint_input.o
+
+# target to build an object file
+src/waypoint_input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_input.dir/build.make CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.o
+.PHONY : src/waypoint_input.cpp.o
+
+src/waypoint_input.i: src/waypoint_input.cpp.i
+.PHONY : src/waypoint_input.i
+
+# target to preprocess a source file
+src/waypoint_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_input.dir/build.make CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.i
+.PHONY : src/waypoint_input.cpp.i
+
+src/waypoint_input.s: src/waypoint_input.cpp.s
+.PHONY : src/waypoint_input.s
+
+# target to generate assembly for a file
+src/waypoint_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/waypoint_input.dir/build.make CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.s
+.PHONY : src/waypoint_input.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,6 +569,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... robot_arm_planner"
+	@echo "... test_ik"
 	@echo "... test_ik_2d"
 	@echo "... test_jacobian_2d"
 	@echo "... test_matrices"
@@ -465,10 +577,15 @@ help:
 	@echo "... test_se2"
 	@echo "... test_se3"
 	@echo "... test_vectors"
+	@echo "... test_waypoints"
 	@echo "... visualize"
+	@echo "... waypoint_input"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/test_ik.o"
+	@echo "... src/test_ik.i"
+	@echo "... src/test_ik.s"
 	@echo "... src/test_ik_2d.o"
 	@echo "... src/test_ik_2d.i"
 	@echo "... src/test_ik_2d.s"
@@ -490,9 +607,15 @@ help:
 	@echo "... src/test_vectors.o"
 	@echo "... src/test_vectors.i"
 	@echo "... src/test_vectors.s"
+	@echo "... src/test_waypoints.o"
+	@echo "... src/test_waypoints.i"
+	@echo "... src/test_waypoints.s"
 	@echo "... src/visualize.o"
 	@echo "... src/visualize.i"
 	@echo "... src/visualize.s"
+	@echo "... src/waypoint_input.o"
+	@echo "... src/waypoint_input.i"
+	@echo "... src/waypoint_input.s"
 .PHONY : help
 
 
