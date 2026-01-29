@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/waypoint_input.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/waypoint_input.cpp",
+  "output": "CMakeFiles/waypoint_input.dir/src/waypoint_input.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/robot_arm_planner.dir/src/main.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/main.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/main.cpp",
+  "output": "CMakeFiles/robot_arm_planner.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_vectors.cpp",
+  "output": "CMakeFiles/test_vectors.dir/src/test_vectors.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_matrices.dir/src/test_matrices.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_matrices.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_matrices.cpp",
+  "output": "CMakeFiles/test_matrices.dir/src/test_matrices.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_se2.dir/src/test_se2.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_se2.cpp",
+  "output": "CMakeFiles/test_se2.dir/src/test_se2.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_se3.dir/src/test_se3.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_se3.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_se3.cpp",
+  "output": "CMakeFiles/test_se3.dir/src/test_se3.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_robot_arm_2d.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_robot_arm_2d.cpp",
+  "output": "CMakeFiles/test_robot_arm_2d.dir/src/test_robot_arm_2d.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_jacobian_2d.cpp",
+  "output": "CMakeFiles/test_jacobian_2d.dir/src/test_jacobian_2d.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_ik_2d.dir/src/test_ik_2d.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_ik_2d.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_ik_2d.cpp",
+  "output": "CMakeFiles/test_ik_2d.dir/src/test_ik_2d.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_waypoints.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_waypoints.cpp",
+  "output": "CMakeFiles/test_waypoints.dir/src/test_waypoints.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/usr/include/SDL2 -I/home/dan/dev/robot-arm-planner-cpp/include -g -std=gnu++17 -o CMakeFiles/test_ik.dir/src/test_ik.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/test_ik.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/test_ik.cpp",
+  "output": "CMakeFiles/test_ik.dir/src/test_ik.cpp.o"
+},
+{
+  "directory": "/home/dan/dev/robot-arm-planner-cpp/build",
+  "command": "/usr/bin/g++  -I/home/dan/dev/robot-arm-planner-cpp/include -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/visualize.dir/src/visualize.cpp.o -c /home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp",
+  "file": "/home/dan/dev/robot-arm-planner-cpp/src/visualize.cpp",
+  "output": "CMakeFiles/visualize.dir/src/visualize.cpp.o"
+}
+]

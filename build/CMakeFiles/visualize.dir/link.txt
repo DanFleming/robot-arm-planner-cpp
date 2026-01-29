@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/visualize.dir/src/visualize.cpp.o -o visualize  /usr/lib/x86_64-linux-gnu/libSDL2.so libwaypoint_input.a 
+/usr/bin/g++ -g CMakeFiles/visualize.dir/src/visualize.cpp.o -o visualize  /usr/lib/x86_64-linux-gnu/libSDL2.so libwaypoint_input.a 

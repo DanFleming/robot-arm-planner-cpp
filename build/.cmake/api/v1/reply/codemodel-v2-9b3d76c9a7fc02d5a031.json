@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -30,7 +30,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -61,84 +61,84 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "robot_arm_planner::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-robot_arm_planner-dc18af225bfad40bcbe5.json",
+					"jsonFile" : "target-robot_arm_planner-Debug-2f1490a59ae01b503652.json",
 					"name" : "robot_arm_planner",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_ik::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_ik-1d792a35ab48a53cef40.json",
+					"jsonFile" : "target-test_ik-Debug-fa97ffdad50a16d9ec4e.json",
 					"name" : "test_ik",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_ik_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_ik_2d-78f8b65e9f26a3089103.json",
+					"jsonFile" : "target-test_ik_2d-Debug-eadc55c4d0174b2a9a7d.json",
 					"name" : "test_ik_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_jacobian_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_jacobian_2d-ae95157eb91492078e88.json",
+					"jsonFile" : "target-test_jacobian_2d-Debug-a2bc7a8bb6bee3761aff.json",
 					"name" : "test_jacobian_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_matrices::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_matrices-fd33f66a384980f1a8be.json",
+					"jsonFile" : "target-test_matrices-Debug-dd156c72fb6175676676.json",
 					"name" : "test_matrices",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_robot_arm_2d::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_robot_arm_2d-168da8556380689e0dbb.json",
+					"jsonFile" : "target-test_robot_arm_2d-Debug-12099b7f3a101050de30.json",
 					"name" : "test_robot_arm_2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_se2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_se2-0bea8738dcec00dd5c3d.json",
+					"jsonFile" : "target-test_se2-Debug-a1ead4b6d412c5cf9441.json",
 					"name" : "test_se2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_se3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_se3-d99707357fa7e9b3b7c1.json",
+					"jsonFile" : "target-test_se3-Debug-bac16ff1fcfaecde547c.json",
 					"name" : "test_se3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_vectors::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_vectors-68e43a6f2b8feb61f3e0.json",
+					"jsonFile" : "target-test_vectors-Debug-0746c68a460300ff03aa.json",
 					"name" : "test_vectors",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_waypoints::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_waypoints-e1a8630c1e1139f132bb.json",
+					"jsonFile" : "target-test_waypoints-Debug-3132ca970d25b58ae90c.json",
 					"name" : "test_waypoints",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "visualize::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-visualize-b9cf736703394064ea73.json",
+					"jsonFile" : "target-visualize-Debug-e9c8decf2c8f172f78e0.json",
 					"name" : "visualize",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "waypoint_input::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-waypoint_input-b58186b329cde3a3ed65.json",
+					"jsonFile" : "target-waypoint_input-Debug-9fe2ecc68c0b5df85789.json",
 					"name" : "waypoint_input",
 					"projectIndex" : 0
 				}
